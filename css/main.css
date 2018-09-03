@@ -1,0 +1,249 @@
+
+@font-face {
+    font-family: 'Capture it';
+    src: url('Captureit.eot');
+    src: url('Captureit.eot?#iefix') format('embedded-opentype'),
+        url('Captureit.woff2') format('woff2'),
+        url('Captureit.woff') format('woff'),
+        url('Captureit.ttf') format('truetype'),
+        url('Captureit.svg#Captureit') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	color: #000;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	font-size: 12px;
+	color: #4f4f4f;
+	font-weight: 600;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.offer {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content:center; 	
+}
+
+.offer__title {
+	font-family: 'Capture it', Arial, sans-serif;
+	font-size: 30px;
+	
+}
+.offer__vk-wrap {
+	display: block;
+}
+
+.offer__wrap {
+	margin-left: 10px;
+}
+
+.header {
+	padding: 0px 20px 0px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: rgb(103, 149, 193);
+	background: -moz-linear-gradient(297deg, rgb(103, 149, 193) 17%, rgb(67, 115, 149) 64%);
+	background: -webkit-linear-gradient(297deg, rgb(103, 149, 193) 17%, rgb(67, 115, 149) 64%);
+	background: -o-linear-gradient(297deg, rgb(103, 149, 193) 17%, rgb(67, 115, 149) 64%);
+	background: -ms-linear-gradient(297deg, rgb(103, 149, 193) 17%, rgb(67, 115, 149) 64%);
+	background: linear-gradient(27deg, rgb(103, 149, 193) 17%, rgb(67, 115, 149) 64%);
+}
+
+.fa-vk {
+	font-size: 60px !important;
+	color: #4A76A8;
+}
+
+.fa-close {
+	font-size: 35px !important;
+	color: #000 !important;
+	transition: all 0.5s ease;
+}
+
+.fa-close:active {
+	color: #a09d20de !important;
+}
+
+.fa-close:hover {
+	text-shadow: 0px 0px 3px #000;
+}
+
+.fa-plus, .fa-times {
+	font-size: 20px;
+	cursor: pointer;
+	color: #c1c1c1;
+}
+
+.search {
+	display: flex;
+	align-items: center;
+	padding: 12px 10px 12px 10px;
+	justify-content: space-between; 
+	background-color: #EDEEF0;
+}
+
+.search__btn {
+	display: block;
+	color: #000;
+	margin-right: 5px;
+	position: absolute;
+ 	top: 50%;
+  	margin-left: 4px;
+    margin-top: -8px;
+  	z-index: 1;
+}
+
+.search__friends , .search__named {
+	display: flex;
+	height: 25px;
+	position: relative;
+}
+
+input {
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	border: none;
+    outline: none;
+    width: 241px;
+	padding-left: 22px;	
+}
+
+.search__friends input {
+	padding-left: 23px;
+}
+
+.main {
+	border-left: 4px solid #EDEEF0;
+	border-right: 4px solid #EDEEF0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.main__right, .main__left {
+	width: 50%;
+	padding: 10px;
+	overflow: hidden;
+	
+}
+
+.main__right-title, .main__left-title {
+	border-bottom: 2px solid #EDEEF0;
+}
+
+.main__right {
+	border-right: 1px solid #EDEEF0; ;
+}
+
+.main__left {
+	border-left: solid #EDEEF0;
+}
+
+.list-wrap {
+	overflow-y: scroll;
+	height: 400px;
+}
+
+.main__left-list {
+	display: flex;
+	flex-direction: column;
+}
+.main__right-list {
+	display: flex;
+	flex-direction: column;	
+}
+
+.photo {
+	width: 90px;
+	height: 90px;
+	margin: 10px;
+}
+
+.name {
+	margin-right: 10px;
+	width: 181px;
+	display:flex;
+	color: #4A76A8;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+
+.btnPlus, .btnTimes {
+	margin-right: 10px;
+	width: 30px;
+	height: 30px;
+	padding-top: 12px ;
+}
+
+
+
+.wrap-name {
+	width: 181px;
+	display:flex;
+	color: #4A76A8;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.friendLeft, .friendRight {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+} 
+
+.friendLeft:hover {
+	background-color: #EDEEF0;
+} 
+
+.friendRight:hover {
+	background-color: #EDEEF0;
+}
+
+.footer {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 20px;
+	margin-bottom: 40px;
+	background: rgb(103, 149, 193);
+	background: -moz-linear-gradient(297deg, rgb(103, 149, 193) 17%, rgb(67, 115, 149) 64%);
+	background: -webkit-linear-gradient(297deg, rgb(103, 149, 193) 17%, rgb(67, 115, 149) 64%);
+	background: -o-linear-gradient(297deg, rgb(103, 149, 193) 17%, rgb(67, 115, 149) 64%);
+	background: -ms-linear-gradient(297deg, rgb(103, 149, 193) 17%, rgb(67, 115, 149) 64%);
+	background: linear-gradient(27deg, rgb(103, 149, 193) 17%, rgb(67, 115, 149) 64%);
+}
+
+.footer__save {
+	text-decoration: none !important;
+	font-family: 'Capture it', Arial, sans-serif;
+	font-size: 20px;
+	color: #000 !important;
+	cursor: pointer;
+}
+
+.footer__save-btn {
+	transition: all 0.4s ease;
+}
+
+.footer__save-btn:hover {
+	text-shadow: 0px 0px 3px #000;
+}
+
+.footer__save-btn:active {
+	color: #a09d20de;
+}

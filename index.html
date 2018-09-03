@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Другофильтр</title>
+	<script src="http://vk.com/js/api/openapi.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="offer">
+			<div class="offer__vk-wrap">
+				<i class="fa fa-vk" aria-hidden="true"></i>
+			</div>
+			<div class="offer__wrap">
+				<h1 class="offer__title">Другофильтр</h1>
+			</div>
+		</div>
+		<div class="filter">
+			<div class="header">
+				<h2 class="header__content">Выберите друзей</h2>
+				<a href="#" class="header__close">
+					<i class="fa fa-times fa-close" aria-hidden="true"></i>
+				</a>
+			</div>
+			<div class="search">
+				<div class="search__friends">
+					<a href="#" class="search__btn">
+						<i class="fa fa-search" aria-hidden="true"></i>
+					</a>
+					<input id="left-input" type="text" placeholder="Начните вводить имя друга" />
+				</div>
+				<div class="search__named">
+						<a href="#" class="search__btn">
+							<i class="fa fa-search" aria-hidden="true"></i>
+						</a>
+					<input id="right-input" type="text" placeholder="Название" />
+				</div>
+			</div>
+			<div class="main">
+				<div class="main__left">
+					<div class="main__left-title">
+						<p>Ваши друзья</p>
+					</div>
+					<div class="list-wrap">
+						<div draggable="true" class="main__left-list">
+
+						</div>
+					</div>
+				</div>
+				<div class="main__right">
+					<div class="main__right-title">
+						<p>Друзья в списке</p>
+					</div>
+					<div class="list-wrap">
+						<div class="main__right-list">
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="footer__save">
+					<span class="footer__save-btn">Сохранить</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
+
+
+<!-- <i class="fa fa-plus" aria-hidden="true"></i> -->
+<!-- <i class="fa fa-times" aria-hidden="true"></i> -->
+<!-- <i class="fa fa-search" aria-hidden="true"></i> -->
